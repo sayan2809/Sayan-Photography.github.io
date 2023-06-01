@@ -1,0 +1,232 @@
+@font-face {
+  font-family: myFont;
+  src: url(Pasajero-95AL.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+}
+
+.background-image {
+  background-image: url("./image/green.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-image1 {
+  background-image: url("./image/red.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-image2 {
+  background-image: url("./image/blue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.heading {
+  color: #0cf39e;
+  padding-left: 100px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #02fcb9;
+}
+
+.heading1 {
+  color: #fe0505;
+  padding-left: 100px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #fa1c11;
+}
+.heading2 {
+  color: #056dfe;
+  padding-left: 100px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #1157fa;
+}
+
+body {
+  font-family: myFont;
+  font-variant: small-caps;
+  font-size: 1vw;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.catagory {
+  text-align: center;
+  padding-top: 100px;
+}
+
+a {
+  color: #0cf39e;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #02fcb9;
+}
+
+.catagory1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.a {
+  color: #fe0505;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #fa1c11;
+}
+
+.catagory2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.b {
+  color: #056dfe;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #1157fa;
+}
+h1 {
+  color: #0cf39e;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #02fcb9;
+}
+
+.red {
+  color: #fe0505;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #fa1c11;
+}
+
+.blue {
+  color: #056dfe;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #1157fa;
+}
+
+.street {
+  text-align: center;
+  padding-top: 170px;
+}
+
+.nature {
+  text-align: center;
+  padding-top: 170px;
+}
+.others {
+  text-align: center;
+  padding-top: 170px;
+}
+
+.social {
+  padding-left: 10px;
+  padding-top: 100px;
+}
+
+.social1 {
+  padding-left: 10px;
+  padding-top: 100px;
+}
+
+.social2 {
+  padding-left: 10px;
+  padding-top: 100px;
+}
+
+nav {
+  width: 70px;
+  transition: all 0.3s linear;
+}
+
+nav li {
+  height: 60px;
+  position: relative;
+}
+
+nav li a {
+  color: #02fcb9;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  padding-left: 25%;
+}
+
+nav li a i {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 27px;
+}
+
+nav li a span {
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: none;
+}
+
+a:hover {
+  z-index: 1;
+  width: 200px;
+}
+
+ul li a:hover span {
+  display: block;
+  padding-left: 20%;
+}
+
+.img-slider .slide {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active {
+  clip-path: circle(150% at 0 50%);
+  transition: 2s;
+  transition-property: clip-path;
+}
+
+.img-slider .slide img {
+  z-index: 1;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.img-slider .navigation {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn {
+  background: rgba(255, 255, 255, 0.5);
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.img-slider .navigation .btn.active {
+  background-color: #2696e9;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
