@@ -19,14 +19,14 @@ body {
 }
 
 .background-image1 {
-  background-image: url("./image/red.jpg");
+  background-image: url("./image/blue.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
 .background-image2 {
-  background-image: url("./image/blue.jpg");
+  background-image: url("./image/red.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -40,18 +40,19 @@ body {
 }
 
 .heading1 {
-  color: #fe0505;
-  padding-left: 100px;
-  padding-top: 20px;
-  letter-spacing: 5px;
-  text-shadow: 0 0 3px #fa1c11;
-}
-.heading2 {
   color: #056dfe;
   padding-left: 100px;
   padding-top: 20px;
   letter-spacing: 5px;
   text-shadow: 0 0 3px #1157fa;
+}
+
+.heading2 {
+  color: #fe0505;
+  padding-left: 100px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #fa1c11;
 }
 
 body {
@@ -85,9 +86,9 @@ a {
 }
 
 .a {
-  color: #fe0505;
+  color: #056dfe;
   letter-spacing: 5px;
-  text-shadow: 0 0 3px #fa1c11;
+  text-shadow: 0 0 3px #1157fa;
 }
 
 .catagory2 {
@@ -96,9 +97,9 @@ a {
 }
 
 .b {
-  color: #056dfe;
+  color: #fe0505;
   letter-spacing: 5px;
-  text-shadow: 0 0 3px #1157fa;
+  text-shadow: 0 0 3px #fa1c11;
 }
 h1 {
   color: #0cf39e;
@@ -107,15 +108,15 @@ h1 {
 }
 
 .red {
-  color: #fe0505;
-  letter-spacing: 5px;
-  text-shadow: 0 0 3px #fa1c11;
-}
-
-.blue {
   color: #056dfe;
   letter-spacing: 5px;
   text-shadow: 0 0 3px #1157fa;
+}
+
+.blue {
+  color: #fe0505;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #fa1c11;
 }
 
 .street {
