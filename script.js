@@ -1,3 +1,13 @@
+function flashTitle(pageTitle, newTitle) {
+  if (document.title == pageTitle) {
+    document.title = newTitle;
+  } else {
+    document.title = pageTitle;
+  }
+}
+
+setInterval("flashTitle('Sayan Photography', 'Follow For More!')", 1500);
+
 var slides = document.querySelectorAll(".slide");
 var btns = document.querySelectorAll(".btn");
 let currentSlide = 1;
